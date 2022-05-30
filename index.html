@@ -5,12 +5,15 @@
     <title>Mohit Singh - Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
+
     <!-- linking css file -->
-    <link rel="stylesheet" href="./style.css">
     <!-- bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- font awesome -->
+    <link rel="stylesheet" href="./style.css">
+
     <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./an-skill-bar.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -56,7 +59,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                    <h2 class="hero_title">नमस्ते <img src="https://almostsagar.herokuapp.com/assets/wave-hello.gif" alt="" style="width: 78px; height: 78px; margin-bottom: 5px;">, I'm Mohit</h2>
+                    <h2 class="hero_title">नमस्ते <img src="https://github.com/Almostsagar/Portfolio/blob/master/assets/wave-hello.gif?raw=true" alt="" style="width: 78px; height: 78px; margin-bottom: 5px;">, I'm Mohit</h2>
                     <p class="hero_desc">I am <span class="typing"></span></p>
                 </div>
             </div>
@@ -68,8 +71,8 @@
     <section id="about">
         <div class="container mt-4 pt-4">
             <h1 class="text-center">About Me</h1>
-            <div class="row mt-4">
-                <div class="col">
+            <div class="mt-4 about-flex">
+                <div class="col-img">
                     <img src="images/mohit.jpg" class="imageAboutPage" alt="">
                 </div>
 
@@ -92,51 +95,58 @@
                             growth.
                         </p>
                     </div>
-                    <div class="resume">
-                        <a href="https://github.com/mohitkumarsingh119/Portfolio/raw/main/Mohit_Singh_Resume%20(1).pdf">Download
-                            CV</a>
+                    <div class="rsm-top">
+                        <div class="resume">
+                            <a href="https://github.com/mohitkumarsingh119/Portfolio/raw/main/Mohit_Singh_Resume%20(1).pdf">Download
+                                CV</a>
+                        </div>
                     </div>
                 </div>
+          </div>
+         </div>
+
     </section>
 
 
-<hr>
+<hr/>
 
     <!-- services section-->
     <section id="skills">
         <div class="container skills-container">
-            <h1 class="text-center" style="padding-bottom: 50px;">Skills</h1>
-            <div class="skillbar html">
-                <div class="filled" data-width="90%"></div>
-                <span class="title">HTML</span>
-                <span class="percent">90%</span>
-            </div>
-
-            <div class="skillbar css">
-                <div class="filled" data-width="75%"></div>
-                <span class="title"></i> CSS</span>
-                <span class="percent">75%</span>
-            </div>
-
-            <div class="skillbar js">
-                <div class="filled" data-width="70%"></div>
-                <span class="title">JS</span>
-                <span class="percent">70%</span>
-            </div>
-            <div class="skillbar java">
-                <div class="filled" data-width="60%"></div>
-                <span class="title">JAVA</span>
-                <span class="percent">60%</span>
-            </div>
-            <div class="skillbar php">
-                <div class="filled" data-width="80%"></div>
-                <span class="title">PHP</span>
-                <span class="percent">80%</span>
-            </div>
-            <div class="skillbar python">
-                <div class="filled" data-width="90%"></div>
-                <span class="title">PYTHON</span>
-                <span class="percent">90%</span>
+            <h1 class="text-center">Skills</h1>
+            <div class="skills-bar">
+                <div class="skillbar html">
+                    <div class="filled" data-width="90%"></div>
+                    <span class="title">HTML</span>
+                    <span class="percent">90%</span>
+                </div>
+    
+                <div class="skillbar css">
+                    <div class="filled" data-width="75%"></div>
+                    <span class="title"></i> CSS</span>
+                    <span class="percent">75%</span>
+                </div>
+    
+                <div class="skillbar js">
+                    <div class="filled" data-width="70%"></div>
+                    <span class="title">JS</span>
+                    <span class="percent">70%</span>
+                </div>
+                <div class="skillbar java">
+                    <div class="filled" data-width="60%"></div>
+                    <span class="title">JAVA</span>
+                    <span class="percent">60%</span>
+                </div>
+                <div class="skillbar php">
+                    <div class="filled" data-width="80%"></div>
+                    <span class="title">PHP</span>
+                    <span class="percent">80%</span>
+                </div>
+                <div class="skillbar python">
+                    <div class="filled" data-width="90%"></div>
+                    <span class="title">PYTHON</span>
+                    <span class="percent">90%</span>
+                </div>
             </div>
         </div>
     </section>
@@ -145,10 +155,10 @@
     <section id="project">
         <div class="container mt-3">
             <h1 class="text-center">Project</h1>
-            <div class="row">
+            <div class="row proj-list">
                 <div class="col-lg-4 mt-4">
                     <div class="card">
-                        <img class="card-img-top" src="https://camo.githubusercontent.com/76106f59295088cc80c8840761c671fe86a3ebdf53b886d1e42c1b472f6c962a/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3739323037332f73637265656e73686f74732f31303039303733382f6d656469612f64333432386466313733643831643337323264336631366266636430636363392e706e67" alt="Card image" style="width: 413px;height: 232px;">
+                        <img class="card-img-top" src="https://camo.githubusercontent.com/76106f59295088cc80c8840761c671fe86a3ebdf53b886d1e42c1b472f6c962a/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3739323037332f73637265656e73686f74732f31303039303733382f6d656469612f64333432386466313733643831643337323264336631366266636430636363392e706e67" alt="Card image" style="width: 100%;">
                         <div class="card-body">
                             <h4 class="card-title">Smart Course App</h4>
                             <p class="card-text">It’s an app made using the flutter framework and dart
@@ -178,7 +188,7 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width: 413px;height: 232px;"     >
+                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width: 100%"     >
                         <div class="card-body">
                             <h4 class="card-title">Data Mining Research Project</h4>
                             <p class="card-text">Analysis of Change in Scenario of Education during
@@ -199,10 +209,10 @@
         <div class="container mt-3 contactContent">
             <h1 class="text-center">Contact Me</h1>
 
-            <div class="row mt-4">
+            <div class="row mt-4 map-code">
                 <div class="col-lg-6">
                     <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                    <div class="sizeOfmap" style="max-width:100%;overflow:hidden;color:red;">
                         <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7550.5814315608095!2d82.56768257450355!3d18.874179898815907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3af2b6f8bede21%3A0x392ffc0989dcae01!2sJeypore%20L%2FR%2C%20Odisha!5e0!3m2!1sen!2sin!4v1650352994885!5m2!1sen!2sin"
@@ -221,7 +231,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 form-css">
                     <!-- form fields -->
                     <form action="https://formspree.io/f/mgednbja" method="post">
                         <input type="text" class="form-control" placeholder="Name">

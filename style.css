@@ -14,7 +14,12 @@
 .hero_desc {
     font-size: 2rem;
 }
-
+#about{
+    height: 100vh;
+}
+#skills{
+    height: 100vh;
+}
 .hero-text {
     text-align: center;
     position: absolute;
@@ -134,12 +139,12 @@ li a:focus:before {
 
 .navbar-brand {
     color: white;
+    padding-left: 20px;
 }
 
 .container {
     width: 100%;
-    margin: 0;
-    padding: 0;
+ 
     z-index: 100;
 }
 
@@ -152,21 +157,14 @@ li a:focus:before {
     color: #ffffff;
 }
 
-#about {
-    padding-top: 50px;
-    height: 100vh;
-}
 
 #skills {
-    padding-top: 80px;
     height: 100vh;
 }
 #project {
-    padding-top: 80px;
     height: 100vh;
 }
 #contact {
-    padding-top: 80px;
     height: 100vh;
 }
 
@@ -200,3 +198,116 @@ li a:focus:before {
     bottom: 0;
     
 }
+.sizeOfmap{
+    width:500px;
+    height:500px;
+}
+.card{
+        height: 528px;
+    
+}
+.about-flex{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+@media (max-width: 455px) {
+    #about{
+        height: 100vh;
+    }
+    .about-flex{
+        flex-direction: column;
+    }
+    .navbar{
+        display: none !important;
+    }
+    .hero_title {
+        font-size: 2.5rem;
+    }
+    .hero_desc {
+        font-size: 1.3rem;
+    }
+    #about {
+        padding-top: 0;
+    }
+    .pt-4 {
+        padding-top: 0 !important;
+    }
+    .mt-4 {
+        margin-top: 0px !important;
+    }
+    .desciption {
+        font-size: 13px;
+    }
+    
+    .imageAboutPage {
+        width: 199px;
+        height: 219px;
+    }
+    .card{
+        height: auto;
+    
+}
+    
+#about {
+    height: 100vh;
+}
+    .col-img{
+        display: flex;
+        justify-content: space-around;
+        padding-right: 0;
+    }
+    .desciption {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .row{
+        --bs-gutter-x: 0;
+    }
+    .proj-list{
+        padding: 20px;
+    }
+    .desciption .row p{
+        padding-right: 0;
+    }
+    .text-center{
+        padding-top: 5px;
+    padding-bottom: 5px;
+
+    }
+    .resume {
+        margin-top: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .rsm-top{
+        display: flex;
+        justify-content: space-around;
+    }
+    .skills-bar{
+        padding: 20px;
+        padding-top: 40px;
+    }
+    .map-code{
+        padding: 20px;
+    }
+    .sizeOfmap{
+        width:300px;
+        height:200px;
+    }
+    .form-css{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+    }
+    #skills {
+        height: 55vh;
+    }
+    #project {
+        height: 220vh;
+    }
+}  
