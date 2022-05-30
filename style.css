@@ -304,10 +304,11 @@ li a:focus:before {
             display: flex;
             flex-direction: column;
     }
-    #skills {
-        height: 55vh;
-    }
+    
     #project {
         height: 220vh;
+    }
+    .card{
+        margin-bottom: 15px;
     }
 }  
